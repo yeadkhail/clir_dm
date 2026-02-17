@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import time
 import os
 
-INPUT_FILE = "jugantor-links.json"
+INPUT_FILE = "jugantor_2.json"
 OUTPUT_FILE = f"jugantor-articles_with_body_{time.strftime('%Y%m%d_%H%M%S')}.json"
 ERROR_LOG = "errors.log"
 

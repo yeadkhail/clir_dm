@@ -4,10 +4,9 @@ import json
 
 # url = "https://www.dailyamardesh.com/sitemaps/news-sitemap.xml"
 # url = "https://www.dhakatribune.com/2025-12-01.xml"
+# url = "https://www.dailyamardesh.com/sitemaps/news-sitemap.xml"
 # url = "https://www.jugantor.com/news_sitemap.xml"
-# url = "https://www.thedailystar.net/sitemap.xml?page=109"
-# url = "https://www.banglatribune.com/archive_2025-12-01.xml"
-url = "https://www.kalerkantho.com/daily-sitemap/2025-06-29/sitemap.xml"
+url = "https://www.banglatribune.com/news-sitemap.xml"
 
 response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
 

@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import time
 import os
 
-INPUT_FILE = "output.json"
+INPUT_FILE = "amardesh_links_2.json"
 OUTPUT_FILE = f"articles_with_body_{time.strftime('%Y%m%d_%H%M%S')}.json"
 ERROR_LOG = "errors.log"
 
